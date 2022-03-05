@@ -1,0 +1,287 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 19px;
+
+
+}
+body{
+    margin-top: 130px;
+    color: #DF6332;
+}
+.menuler{
+
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    margin-top: -9px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    height: 155px;
+
+    
+ 
+}
+
+
+.marka{
+   
+    top: 18px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    text-align:center;
+    
+
+    
+}
+
+ .m{
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: 10px;
+    border-radius: 4px;
+
+}
+.dil{    
+    
+    position: fixed;
+    right: -43px;
+    top: -11px;
+    width: 90px;
+    z-index: 100000;
+    
+}
+.logo{
+    margin-left: 12px;
+    top: 2px;
+    position: fixed;
+    left: 5px;
+    
+    
+    
+}
+.logo img{
+    height: 135px;
+}
+.m a{
+    text-decoration: none;
+
+}
+
+.sekme{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    flex-grow: 1;
+    text-align: center;
+    list-style: none; 
+    align-content: flex-end;
+        
+}
+.sekme>ul{
+    
+    height: 45px;
+}
+.dd>li{    
+    z-index: 1;
+    margin-top: 25px;   
+    float: left;
+    /* display: inline-flex; */
+    background-color: white;
+    border-radius: 2px;
+    
+    
+    
+    
+}
+.dd>li>a{
+   
+    display: block;
+    font-size: 24px;
+    padding: 0px 15px;
+    color: #DF6332;
+    line-height: 50px;
+    /* border: 1px solid red; */
+    
+    
+
+}
+.dd ul {
+    position: absolute ;
+    top: 90px;
+    opacity: 0;
+    transition: 500ms all;
+    visibility: hidden;
+    
+    
+    
+}
+.dd ul> li{
+    position: relative;
+    display: block;
+    right: 40px;
+}
+.dd :hover .bolgeler{
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+    top: 135px;
+    
+    
+   
+}
+ .bolgeler :hover >ul{
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+    top: 0px;
+    
+    /* background-color: black; */
+   
+}
+.dd ul :hover li>a{
+    /* display: block; */
+  
+    color: #DF6332;
+    background-color: white;
+   
+}
+
+.dd ul li a{
+    display: block;
+    font-size: 21px;
+    padding: 1px 12px;
+    background-color: white;
+    color: #DF6332; 
+
+}
+.dd>li>ul>li ul{
+    top: -25px;
+}
+.dd >li ul ul { 
+
+  left: 100px;
+    
+}
+.sutun1{
+    padding: 5%;
+    width: 70%;    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: -39px;
+    
+    
+}
+
+.sutun1>ul>li{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.sutun1 p{
+    margin-bottom: 49px;
+}
+
+
+.sutunlar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 9px;
+    margin: 105px;
+    
+}
+.sutun{
+    width: 33%;
+}
+
+.sutun li{
+    margin-bottom: 3%;
+}
+.sutun>ul>li{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ /* .sutun>ul>li>a,.sutun>ul>li>p{
+    width: 350px;
+}  */
+
+/* .aa{
+
+    width: 400px;
+    
+} */
+
+
+
+.sehirresim,.mekanresim,.sporresim,.yemekresim{
+    width: 100%;
+    
+    padding-bottom: 8px;
+
+
+    
+}
+.sr{
+    height: 255px;
+
+
+
+}
+body{
+    background-color: white;
+    
+
+}
+/* #sehırsutun,#sporsutun{
+    padding-left: 4%;
+    padding-right: 4%;
+} */
+/* #sporlar{
+    padding:0% 5%;
+    width: 85%;  } */
+
+    /* ,.sutunlar */
+header+h2{
+    padding-left: 2%;
+    position: fixed;
+    
+}
+
+
+#sehirsecenek{
+    position: fixed;
+    border:  solid 2px rgb(197, 193, 193);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #DF6332;
+    left: 12px;
+    top: 170px;
+    width: 135px;
+
+}
+
+/* .sehirler li a{
+    color: #519BDB; 
+} */
+
+
+a{
+    color: #DF6332;
+}
+
